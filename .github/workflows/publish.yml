@@ -15,7 +15,7 @@ jobs:
         # Semantic version range syntax or exact version of a Python version
         python-version: '3.6' 
     - name: install nbconvert
-      run: pip install nbconvert==5.6.0
+      run: pip install nbconvert==6.1.0
     - name: convert ipynb to publishable html for active-visualization
       run: |
         python convert.py
